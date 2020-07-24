@@ -39,12 +39,9 @@ export const addCard = (state) => {
 
 export const giveInizialeCards = (state) => { 
   
+  //Asign card to player
   var playerCards = [];
   var playerPoints = 0;
-
-  var dealerCards = [];
-  var dealerPoints = 0;
-  
 
   //Asign card to dealer
   var dealerCards = [];
@@ -83,10 +80,13 @@ export const calculatePointsCards = (cards) => {
   const val10 = ["J", "Q", "K"];
   var totalPoints = 0;
 
+  // eslint-disable-next-line
   cards.map( (item, index) => {
 
     if(val10.includes(item)){
         totalPoints = totalPoints + 10;
+        
+    // eslint-disable-next-line
     }else if(item == "A"){
 
         if(totalPoints < 11){

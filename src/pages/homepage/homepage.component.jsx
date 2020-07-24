@@ -73,7 +73,6 @@ const mapDispatchToProps = dispatch => ({
 const mapStateToProps = state => ({
     dealerPoints: state.card.dealerPoints,
     playerPoints: state.card.playerPoints,
-    cardsLeft: state.card.cardsLeft,
     dealerCards: state.card.dealerCards,
     playerCards: state.card.playerCards,
     victory: state.card.victory,
