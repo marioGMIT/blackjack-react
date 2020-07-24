@@ -18,7 +18,6 @@ export const addCard = (state) => {
   cards.push(hand[0]);
   const gamer = calculatePointsCards(cards);  
 
-  console.log(gamer);
 
   if (isDealer) {
     dealerCards = gamer[0];
@@ -95,7 +94,7 @@ export const calculatePointsCards = (cards) => {
 
         }else{
             totalPoints = totalPoints + 1;
-            cards[index] = 1;
+            cards[index] = "1";
         }
 
     }else{
