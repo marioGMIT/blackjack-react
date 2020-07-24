@@ -1,0 +1,15 @@
+
+.btn-stick {
+    background-color: orange;
+    color:black;
+    padding: 1rem;
+    border: 1px solid rgb(109, 70, 11);
+    border-radius: 30%;
+}
+.btn-hit {
+    background-color: green;
+    padding: 1rem;
+    border: 1px solid rgb(16, 184, 38);
+    border-radius: 30%;
+  }
+ 
